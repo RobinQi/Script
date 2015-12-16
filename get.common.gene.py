@@ -5,7 +5,7 @@ import os
 import sys
 
 common_gene = []
-dict = {}
+dict = {} # define a directory 
 input_file = open('common.gene.txt','r')
 GSE3630 = open('GSE3630.txt','r')
 GSE65144 = open('GSE65144.txt','r')
