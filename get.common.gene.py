@@ -33,7 +33,7 @@ GSE65144.close()
 
 for key in dict:
 	common_gene_output.write(key+'\t'+ dict[key][0] + '\t' + dict[key][1] + '\n')
-common_gene_output.close()
+	common_gene_output.close()
 
 
 
